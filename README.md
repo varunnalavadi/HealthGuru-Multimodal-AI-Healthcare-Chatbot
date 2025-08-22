@@ -1,20 +1,20 @@
-# HealthGuru – Multimodal AI Healthcare Chatbot
+# 🏥 HealthGuru – Multimodal AI Healthcare Chatbot
 
 **HealthGuru** is a **multimodal AI chatbot** designed to provide accurate, contextual health assistance. It supports **text, voice, and image inputs**, leveraging a **multi-agent RAG framework** for reliable information retrieval and response generation.
 
 ---
 
-## **Key Features**
+## ✨ Key Features
 
-* **Multimodal Input:** Handles **text, voice, and medical image queries**.
-* **Multi-Agent System:** Specialized agents refine queries, classify topics, retrieve data, and generate responses.
-* **Retrieval-Augmented Generation (RAG):** Reduces hallucinations by grounding responses in trusted medical data.
-* **Semantic Search:** Uses a **vector database** to find the most relevant documents quickly.
-* **Real-Time Information:** Fetches up-to-date content via web search fallback.
+* **💬 Multimodal Input:** Handles **text, voice, and medical image queries**.
+* **🤖 Multi-Agent System:** Specialized agents refine queries, classify topics, retrieve data, and generate responses.
+* **📚 Retrieval-Augmented Generation (RAG):** Reduces hallucinations by grounding responses in trusted medical data.
+* **🔍 Semantic Search:** Uses a **vector database** to find the most relevant documents quickly.
+* **🌐 Real-Time Information:** Fetches up-to-date content via web search fallback.
 
 ---
 
-## **System Architecture**
+## 🏗️ System Architecture
 
 1. **Input Processing:** Accepts text, voice, or images.
 2. **Query Refinement:** Cleans and reformulates ambiguous queries.
@@ -41,19 +41,19 @@ User Output
 
 ---
 
-## **Technology Stack**
+## 🛠️ Technology Stack
 
-* **Python** – Backend and integration
-* **Google Gemini 2.0** – Large Language Model for response generation
-* **LangChain** – Multi-agent orchestration
-* **Pinecone** – Vector database for semantic search
-* **LLaMA-4 Scout** – Medical image analysis
-* **Google Web Speech API** – Voice input
-* **Tavily API** – Real-time web search
+* **🐍 Python** – Backend and integration
+* **🤖 Google Gemini 2.0** – Large Language Model for response generation
+* **🧩 LangChain** – Multi-agent orchestration
+* **📦 Pinecone** – Vector database for semantic search
+* **🖼️ LLaMA-4 Scout** – Medical image analysis
+* **🎤 Google Web Speech API** – Voice input
+* **🌐 Tavily API** – Real-time web search
 
 ---
 
-## **Installation**
+## ⚡ Installation
 
 **Prerequisites:** Python 3.8+, pip, and internet connection for API access.
 
@@ -93,7 +93,7 @@ Open in browser: `http://localhost:7860`
 
 ---
 
-## **Usage Examples**
+## 💡 Usage Examples
 
 * **Text Query:**
   `User: "What are the symptoms of diabetes?"`
@@ -107,7 +107,7 @@ Open in browser: `http://localhost:7860`
 
 ---
 
-## **Future Enhancements**
+## 🚀 Future Enhancements
 
 * User personalization and health history tracking
 * Latency optimization with caching
@@ -116,7 +116,7 @@ Open in browser: `http://localhost:7860`
 
 ---
 
-## **Disclaimer**
+## ⚠️ Disclaimer
 
 * **Informational Only:** HealthGuru provides guidance; it is **not a substitute for professional medical advice**.
 * **Emergency Situations:** Always contact emergency services in urgent cases.
@@ -124,7 +124,7 @@ Open in browser: `http://localhost:7860`
 
 ---
 
-## **Acknowledgments**
+## 🙏 Acknowledgments
 
 * Mayo Clinic, NIH, MedlinePlus, PubMed – for trusted medical data
 * Google – Gemini AI models
